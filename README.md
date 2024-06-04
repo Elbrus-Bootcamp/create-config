@@ -1,1 +1,1 @@
-# elbrus-config
+# @elbrus/create-config

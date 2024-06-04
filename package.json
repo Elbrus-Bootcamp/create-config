@@ -1,5 +1,5 @@
 {
-  "name": "@elbrus/config",
+  "name": "@elbrus/create-config",
   "version": "1.0.0",
   "description": "Easily initialize your project with premade linting and formatting rules",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Elbrus-Bootcamp/elbrus-config.git"
+    "url": "git+ssh://git@github.com/Elbrus-Bootcamp/create-config.git"
   },
   "keywords": [
     "javascript",
@@ -18,7 +18,7 @@
   "author": "Alexander Knyazev @grentank",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Elbrus-Bootcamp/elbrus-config/issues"
+    "url": "https://github.com/Elbrus-Bootcamp/create-config/issues"
   },
-  "homepage": "https://github.com/Elbrus-Bootcamp/elbrus-config#readme"
+  "homepage": "https://github.com/Elbrus-Bootcamp/create-config#readme"
 }
