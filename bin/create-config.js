@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-import { spawnSync } from 'child_process';
-import process from "process";
+import steps from '../lib/steps.js';
 
-const cwd = process.cwd();
+for (const { log, fn } of steps) {
+  console.log(log);
+  await fn();
+}
 
-spawnSync('npm', ['init', '-y']);
-spawnSync('npm', ['i', '-D', 'eslint', '@elbrus/eslint-config']);
+console.log('Happy hacking!');
