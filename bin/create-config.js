@@ -7,5 +7,5 @@ for (const { log, fn } of steps) {
   await fn();
 }
 console.log('Check installed packages. If not installed run:');
-console.log('npm i -D eslint @elbrus/eslint-config globals @eslint/js');
+console.log('npm i -D eslint @elbrus/eslint-config@latest @elbrus/eslint-plugin@latest globals @eslint/js');
 console.log('\n\nHappy hacking!');

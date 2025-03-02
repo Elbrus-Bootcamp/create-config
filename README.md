@@ -19,7 +19,10 @@ npx @elbrus/create-config@latest
 Данный сборщик предоставляет:
 
 - package.json
-- кодстайл airbnb (без импортов)
+- сочетание правил:
+  - airbnb
+  - кастомные правила Эльбруса ([ссылка на ESLint plugin](https://github.com/Elbrus-Bootcamp/eslint-plugin))
+  - собственный конфиг Эльбруса ([ссылка на ESLint config](https://github.com/Elbrus-Bootcamp/eslint-config))
 - интеграцию форматтера Prettier
 - gitignore
 
