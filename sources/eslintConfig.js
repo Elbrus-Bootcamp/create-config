@@ -1,6 +1,6 @@
-import globals from 'globals';
-import pluginJs from '@eslint/js';
 import elbrusConfig from '@elbrus/eslint-config';
+import pluginJs from '@eslint/js';
+import globals from 'globals';
 
 export default [
   { files: ['**/*.js'], languageOptions: { sourceType: 'commonjs' } },

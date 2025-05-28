@@ -3,9 +3,14 @@
 import steps from '../lib/steps.js';
 
 for (const { log, fn } of steps) {
-  console.log(log);
-  await fn();
+  try {
+    await fn();
+  } catch (error) {
+    console.error(`Error: ${log}`);
+  }
 }
-console.log('Check installed packages. If not installed run:');
-console.log('npm i -D eslint @elbrus/eslint-config@latest @elbrus/eslint-plugin@latest globals @eslint/js');
+console.log('Run if not installed:\n');
+console.log(
+  'npm i -D eslint @eslint/js @eslint/json @elbrus/eslint-config @elbrus/eslint-plugin globals',
+);
 console.log('\n\nHappy hacking!');
