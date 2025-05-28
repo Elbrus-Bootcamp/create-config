@@ -4,7 +4,7 @@
   "description": "Easily initialize your project with premade linting and formatting rules",
   "main": "index.js",
   "bin": {
-    "create-config": "./bin/create-config.js"
+    "create-config": "bin/create-config.js"
   },
   "type": "module",
   "repository": {
